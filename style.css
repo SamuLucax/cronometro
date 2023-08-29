@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Raleway:wght@100&display=swap');
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: black;
+  }
+  
+  .container {
+    text-align: center;
+    background: white;
+    border-radius: 50px;
+    width: 300px;
+    height: 300px;
+  }
+  
+  #timer {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: black;
+  }
+  
+  button {
+    font-size: 20px;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    background-color: green;
+    border-radius: 100px;
+    border: none;
+    margin: 0.5rem 0.60rem;
+    }
+  
+  .start {
+    background: green;
+  }
+
+  .stop {
+    background: yellow;
+  }
+
+  .reset {
+    background: red;
+  }
+  
+h2 {
+    color: black;
+    height: 10vh;
+    width: 20%;
+    margin-left: 80px;
+
+}
+  
